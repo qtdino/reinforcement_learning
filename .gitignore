@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+*.egg-info/
+build/
+dist/
+
+# Logs and databases
+*.log
+logs/
+
+# Checkpoints and saved models
+checkpoints/
+*.ckpt
+*.pth
+
+# Matplotlib plots and figures
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python cache files
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Miscellaneous
+*.swp
+*.bak
+*.tmp
+
+# Ignore assets if they are large or not needed in the repo
+assets/
+
+# Ignore config files that might contain sensitive information (if any)
+config.yaml
+config.json
+
+# Ignore any compiled C extensions
+*.so
+
+# MacOS specific files
+._*
+
+# Windows specific files
+Desktop.ini
+
+# Anaconda environment files
+.conda/
+
+# Pytest cache
+.pytest_cache/
