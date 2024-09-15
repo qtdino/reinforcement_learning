@@ -1,0 +1,5 @@
+pygame==2.5.0
+torch==2.0.1
+numpy==1.23.5
+matplotlib==3.8.0
+colorama==0.4.6
