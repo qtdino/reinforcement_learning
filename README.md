@@ -140,7 +140,7 @@ where:
      d. **Sample Mini-Batch:**
 
         - If replay memory $D$ has at least `BATCHSIZE` samples:
-          - Sample a random mini-batch of transitions ${(s_i, a_i, r_i, s_{i+1}, \text{done}_i)}_{i=1}^{\text{BATCHSIZE}}$ from $D$.
+          - Sample a random mini-batch of transitions $(s_i, a_i, r_i, s_{i+1}, \text{done}_i)_{i=1}^{\text{BATCHSIZE}}$ from $D$.
 
      e. **Compute Target Values:**
 
