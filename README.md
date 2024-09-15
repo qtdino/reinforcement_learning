@@ -265,7 +265,7 @@ source venv/bin/activate
 
 <h2 id="project-structure"><strong>Project Structure</strong></h2>
 
-<pre><code>reinforcement_learning/
+<pre><code>snake_learning/
 ├── agent/
 │   ├── __init__.py
 │   ├── dqn_agent.py
