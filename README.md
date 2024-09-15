@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Reinforcement Learning Snake Game</title>
 </head>
 <body>
 
@@ -47,7 +46,7 @@ The core of the DQN algorithm involves updating the network parameters $\theta$ 
 The loss function $L(\theta)$ for the network parameters $\theta$ is defined as:
 
 $$
-L(\theta) = \frac{1}{\text{BATCH\_SIZE}} \sum_{i=1}^{\text{BATCH\_SIZE}} \left( y_i - Q(s_i, a_i; \theta) \right)^2
+L(\theta) = \frac{1}{\text{BATCHSIZE}} \sum_{i=1}^{\text{BATCHSIZE}} \left( y_i - Q(s_i, a_i; \theta) \right)^2
 $$
 
 where:
@@ -140,8 +139,8 @@ where:
 
      d. **Sample Mini-Batch:**
 
-        - If replay memory $D$ has at least `BATCH_SIZE` samples:
-          - Sample a random mini-batch of transitions $\{(s_i, a_i, r_i, s_{i+1}, \text{done}_i)\}_{i=1}^{\text{BATCH\_SIZE}}$ from $D$.
+        - If replay memory $D$ has at least `BATCHSIZE` samples:
+          - Sample a random mini-batch of transitions $\{(s_i, a_i, r_i, s_{i+1}, \text{done}_i)\}_{i=1}^{\text{BATCHSIZE}}$ from $D$.
 
      e. **Compute Target Values:**
 
@@ -159,7 +158,7 @@ where:
 
         - Compute the loss:
           $$
-          L(\theta) = \frac{1}{\text{BATCH\_SIZE}} \sum_{i=1}^{\text{BATCH\_SIZE}} \left( y_i - Q(s_i, a_i; \theta) \right)^2
+          L(\theta) = \frac{1}{\text{BATCHSIZE}} \sum_{i=1}^{\text{BATCHSIZE}} \left( y_i - Q(s_i, a_i; \theta) \right)^2
           $$
         - Perform a gradient descent step on $L(\theta)$ with respect to $\theta$ using learning rate $\alpha$ (`LEARNING_RATE`):
           $$
