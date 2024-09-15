@@ -127,12 +127,12 @@ where:
 
 <p>Clone the repository to your local machine using the following command:</p>
 
-<pre><code>git clone https://github.com/qtdino/reinforcement_learning.git
+<pre><code>git clone https://github.com/qtdino/snake_learning.git
 </code></pre>
 
 <p>Navigate to the project directory:</p>
 
-<pre><code>cd reinforcement_learning
+<pre><code>cd snake_learning
 </code></pre>
 
 <h3><strong>2. Create a Virtual Environment (Recommended)</strong></h3>
